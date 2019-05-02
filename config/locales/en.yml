@@ -24,6 +24,3 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
-  helpers:
-    application_helper:
-      title: "Ruby on Rails Tutorial Sample App"
