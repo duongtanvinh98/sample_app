@@ -42,7 +42,12 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     arel (8.0.0)
     ast (2.4.0)
+    autoprefixer-rails (9.5.1)
+      execjs
     bindex (0.7.0)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.3)
     byebug (11.0.1)
     capybara (3.18.0)
@@ -94,6 +99,7 @@ GEM
     parallel (1.17.0)
     parser (2.6.3.0)
       ast (~> 2.4.0)
+    pg (1.1.4)
     powerpack (0.1.2)
     public_suffix (3.0.3)
     puma (3.12.1)
@@ -195,11 +201,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 3.3.7)
   byebug
   capybara (>= 2.15)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  pg
+  puma (~> 3.7)
+  rails (~> 5.1.7)
+  rails-i18n
   rubocop (~> 0.54.0)
   sass-rails (~> 5.0)
   selenium-webdriver
