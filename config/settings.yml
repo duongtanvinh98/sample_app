@@ -1,0 +1,5 @@
+app:
+  user:
+    name_length: 50
+    email: 255
+    password: 6
