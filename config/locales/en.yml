@@ -7,6 +7,9 @@ en:
       home: "Home"
       linkcontent: "Ruby on Rails Tutorial"
       url: "https://www.railstutorial.org/"
+      signup: "Sign up now!"
+      url_img: "rails.png"
+      alt_img: "Rails logo"
     help:
       help: "Help"
       linkcontent: "Rails Tutorial help section"
@@ -21,6 +24,28 @@ en:
       urlbook: "https://www.railstutorial.org/book"
       creencast: "creencast series"
       urlcreencast: "http://screencasts.railstutorial.org/"
+    contact:
+      contact: "Contact"
+      contact_page: "contact page"
+      url_contact_page: "https://www.railstutorial.org/contact"
+      content: "Contact the Ruby on Rails Tutorial about the sample app at the"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+    footer:
+      linkcontent: "Ruby on Rails Tutorial"
+      url: "https://www.railstutorial.org/"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      urlnews: "http://news.railstutorial.org/"
+      michaelhartl: "Michael Hartl"
+      urlmichaelhartl: "http://www.michaelhartl.com/"
+  users:
+    new:
+      title: "Sign up"
+      content: "This will be a signup page for new users."
