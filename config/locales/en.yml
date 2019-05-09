@@ -36,6 +36,12 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      sample_app: "sample app"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      lognout: "Log out"
+      account: "Account"
     footer:
       linkcontent: "Ruby on Rails Tutorial"
       url: "https://www.railstutorial.org/"
@@ -65,3 +71,12 @@ en:
       messages:
         one: "The form contains %{count} error."
         other: "The form contains %{count} error."
+  sessions:
+    new:
+      title: "Log in"
+      signup: "Sign up now ?"
+      new_user: "New user?"
+      email: "Email"
+      password: "Password"
+    create:
+      danger: "Invalid email/password combination"
