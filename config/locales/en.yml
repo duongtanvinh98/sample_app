@@ -78,5 +78,5 @@ en:
       new_user: "New user?"
       email: "Email"
       password: "Password"
-    create:
-      danger: "Invalid email/password combination"
+      remember: "remember_me"
+      remember_content: "Remember me on this computer"
