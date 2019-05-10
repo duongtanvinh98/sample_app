@@ -3,3 +3,5 @@ app:
     name_length: 50
     email: 255
     password: 6
+config:
+  one: 1
