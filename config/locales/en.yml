@@ -60,10 +60,31 @@ en:
       password: "Password"
       confirmation: "Confirmation"
       submit: "Create my account"
+    edit:
+      title: "Edit user"
+      title_1: "Update your profile"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Save changes"
+      change: "Change"
+      gravatar: "http://gravatar.com/emails"
+      please_log_in: "Please log in"
     create:
       wellcome: "Welcome to the Sample App"
     show:
       error: "Not found User"
+      please_log_in: "Please log in"
+    update:
+      messages: "Profile updated"
+    index:
+      all_users: "All users"
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+    destroy:
+      success: "User deleted"
   users_helper:
     url: "https://secure.gravatar.com/avatar/#{gravatar_id}"
   shared:

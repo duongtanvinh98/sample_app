@@ -3,5 +3,10 @@ app:
     name_length: 50
     email: 255
     password: 6
+    size_gravatar: 80
+  helpers:
+    size_gravatar: 80
+  controller:
+    page: 10
 config:
   one: 1
