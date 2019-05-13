@@ -72,10 +72,11 @@ en:
       gravatar: "http://gravatar.com/emails"
       please_log_in: "Please log in"
     create:
-      wellcome: "Welcome to the Sample App"
+      wellcome: "Please check your email to activate your account."
     show:
       error: "Not found User"
       please_log_in: "Please log in"
+
     update:
       messages: "Profile updated"
     index:
@@ -101,3 +102,17 @@ en:
       password: "Password"
       remember: "remember_me"
       remember_content: "Remember me on this computer"
+      account_not_activated: "Account not activated"
+    create:
+        login_fail: "Login fail"
+  user_mailer:
+    title: "Sample App"
+    content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
+  controller:
+    account_activations:
+      success: "Account activated!"
+      danger: "Invalid activation link"
+  mailers:
+    user_mailer:
+      subject: "Account activation"
