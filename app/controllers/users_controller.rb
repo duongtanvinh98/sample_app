@@ -13,14 +13,16 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def show; end
+  def show
+    redirect_to root_path && return unless @user.activated
+  end
 
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".wellcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".wellcome"
+      redirect_to root_path
     else
       render :new
     end

@@ -8,5 +8,10 @@ app:
     size_gravatar: 80
   controller:
     page: 10
+  session:
+    one: 1
 config:
   one: 1
+  development:
+    host: "localhost:3000"
+    port: "587"
